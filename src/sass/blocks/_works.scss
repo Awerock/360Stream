@@ -1,0 +1,11 @@
+.works {
+    min-height: 600px;
+    padding: 25px;
+    &__plate {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 25px;
+    }
+}

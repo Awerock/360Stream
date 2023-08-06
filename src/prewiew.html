@@ -27,11 +27,23 @@
     <section class="soccer">
         <div class="container">
             <div class="title">set camera</div>
+            <img class="soccer__img" src="img/stadium.png" alt="">
             <div class="soccer__field">
-                <a href="https://www.youtube.com/embed/oHeTPOf9M5I?controls=0"><div class="soccer__area" id="area1"></div></a>
-                <a href="https://www.youtube.com/embed/oHeTPOf9M5I?controls=0"><div class="soccer__area" id="area2"></div></a>
-                <a href="https://www.youtube.com/embed/oHeTPOf9M5I?controls=0"><div class="soccer__area" id="area3"></div></a>
-                <a href="https://www.youtube.com/embed/oHeTPOf9M5I?controls=0"><div class="soccer__area" id="area4"></div></a>
+                <!-- <a href="#" id="pop-up_open"><div class="soccer__area" id="area1"></div></a> -->
+                <a href="#" class="pop-up_trigger" data-video-src="https://www.youtube.com/embed/5fyMXXc-Kdk"><div class="soccer__area" id="area1"></div></a>
+                <a href="#" class="pop-up_trigger" data-video-src="https://www.youtube.com/embed/xt47YLQRBes"><div class="soccer__area" id="area2"></div></a>
+                <a href="#" class="pop-up_trigger" data-video-src="https://www.youtube.com/embed/7j-_Y05aa8I"><div class="soccer__area" id="area3"></div></a>
+                <a href="#" class="pop-up_trigger" data-video-src="https://www.youtube.com/embed/xQHsQX0sm7I"><div class="soccer__area" id="area4"></div></a>
+            </div>
+            <div class="pop-up" id="pop-up">
+                <div class="pop-up__container">
+                    <div class="pop-up__body">
+                        <div class="pop-up__close" id="pop-up_close">&#x2716</div>
+                        <div class="soccer__pop">
+                            <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

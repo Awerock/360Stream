@@ -1,11 +1,23 @@
 .soccer {
-    min-height: 600px;
+    min-height: 1100px;
     padding: 25px;
     background-color: #51b72d;
+    position: relative;
+    &__img {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: 1150px;
+        height: 950px;
+    }
     &__field {
-        width: 600px;
-        height: 338px;
-        background-image: url('../../icons/pole.png');
+        top: 300px;
+        width: 500px;
+        height: 282px;
+        background-image: url('../icons/pole.png');
         background-size: 100%;
         background-repeat: no-repeat;
         position: relative;
